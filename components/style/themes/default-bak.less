@@ -1,6 +1,5 @@
 /* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
-// @import '../color/colors';
-@import '../color/colors-dark';
+@import '../color/colors';
 
 // The prefix to use on all css classes from ant.
 @ant-prefix: ant;
@@ -39,19 +38,19 @@
 // ---
 
 // Background color for `<body>`
-@body-background: #1f1f1f;
+@body-background: #fff;
 // Base background color for most components
-@component-background: #1f1f1f;
+@component-background: #fff;
 @font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
   'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
   'Segoe UI Emoji', 'Segoe UI Symbol';
 @code-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
-@text-color: fade(@white, 65%);
-@text-color-secondary: fade(@white, 45%);
-@text-color-inverse: @black;
+@text-color: fade(@black, 65%);
+@text-color-secondary: fade(@black, 45%);
+@text-color-inverse: @white;
 @icon-color: inherit;
 @icon-color-hover: fade(@black, 75%);
-@heading-color: fade(@white, 85%);
+@heading-color: fade(#000, 85%);
 @heading-color-dark: fade(@white, 100%);
 @text-color-dark: fade(@white, 85%);
 @text-color-secondary-dark: fade(@white, 65%);
